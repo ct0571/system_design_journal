@@ -1,0 +1,82 @@
+
+**Functional Vs Non-Functional Requirements**
+Functional requirements are nothing but the essential features, behaviors, interactions that a system must support to fullfill user and business needs.
+
+*Typical Functional Requirements Include:*
+- User authentication and authorization
+- Data processing and management (e.g., creating, reading, updating, deleting records)
+- Business logic execution (e.g., order processing, payment handling)
+- System workflows (e.g., notifications, approvals)
+- Interface requirements(e.g., user interface elements, APIs)
+
+These are critical because, if requirements not met, the system will fail to deliver its intended pupose.
+These are measureable in binary(met/not met)
+
+**Non-Functional Requirements**
+These requirements define how a system should operate rather than what it should do. 
+
+*Typical Non-Functional Requirements Include:*
+- Performance 
+- Security
+- Reliability
+- Scalability
+- Usability
+- Maintainability
+
+These are measureable by degree (e.g., response time)
+If these requirements not met, system functions poorly or fails to meet expectations.
+
+# 🍕 Functional vs Non-Functional Requirements (Narrative Example)
+
+## 📘 Scenario: Building a Pizza Delivery App
+
+You're working with a local pizza shop owner who wants to build an online pizza delivery application. She explains what the app should be able to do:
+
+> "I want my customers to be able to choose their favorite pizza, select toppings, place an order, and pay online. Once the order is placed, we should get notified in the kitchen and deliver it to their home."
+
+These are the core features of the system — the things it must be able to do.
+
+### ✅ Functional Requirements (What the system should do)
+- Show pizza menu
+- Let users customize toppings
+- Add items to cart
+- Process online payments
+- Send order confirmation
+- Notify kitchen staff
+- Track delivery
+
+---
+
+Then she adds:
+
+> "Also, I want the app to load quickly. No one wants to wait. Even during peak hours like weekends, it shouldn't crash. Customers should always get their order within 30 minutes. And I want the app to work even if 500 people are using it at once."
+
+These describe how well the system should behave under various conditions.
+
+### ✅ Non-Functional Requirements (How the system should behave)
+- Load time should be under 2 seconds
+- System should be available 99.99% of the time
+- Should support up to 500 concurrent users
+- Orders should be delivered within 30 minutes
+- Should handle traffic spikes during weekends without crashing
+
+---
+
+## 🧠 One-Liner to Remember
+
+> "Functional is what it should do, non-functional is how well it should do it."
+
+---
+
+## 📊 Summary Table
+
+| Type                   | Pizza App Example                                 |
+|------------------------|----------------------------------------------------|
+| Functional             | Users can place orders and pay online             |
+| Non-Functional         | Orders delivered in 30 mins, app loads in 2 secs  |
+
+
+
+
+
+
