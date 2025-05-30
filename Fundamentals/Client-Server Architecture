@@ -1,0 +1,8 @@
+**#Client-Server Architecture**
+Almost every web application we use today is built on a client-server architecture.
+When a client sends a request from a web browser or mobile app, the server receives the request, processes it, and sends a response back.
+
+For example, if you want to buy a pair of shoes, you might open the Adidas website and search for a specific model. The request is sent to the server, which then searches the database for that model. 
+If found, the server responds with the relevant product details.
+This is the basic architecture we’re referring to.
+![Alt text](./assets/image.png)
